@@ -1,0 +1,23 @@
+{
+  "name": "learn-rxjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:init": "docsify init ./docs",
+    "docs:dev": "docsify serve docs",
+    "docs:build": "docsify build docs",
+    "docs:deploy": "npm run docs:build && gh-pages -d docs",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.4",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  }
+}
