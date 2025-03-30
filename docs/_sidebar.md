@@ -1,0 +1,4 @@
+- [首页](/)
+- 文档
+  - [介绍](/introduce.md)
+  - [安装](/install.md)
